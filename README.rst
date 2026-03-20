@@ -14,11 +14,15 @@ Peer collaboration is encouraged to help mature the product to fill in metadata 
 .. code-block:: python
 	
 	# Example 1
+	from esm.instrument import load_instrument
+	modis = load_instrument('modis', platform='terra')
+
+	# Example 2
 	from esm.platform import Satellite
 	terra = Satellite('terra', load_instrument='modis')
 	modis = terra.instruments['modis']
 	
-	# Example 2
+	# Example 3
 	from esm.instrument import get_instrument_class
 	MODIS = get_instrument_class('modis')
 	modis = MODIS('terra')
