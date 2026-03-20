@@ -8,3 +8,6 @@ description = "A Python package for reading Earth Science Mission data from spac
 readme = "README.rst"
 license = "BSD-3-Clause-Clear"
 license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Repository = "https://github.com/ltellison/esm"
