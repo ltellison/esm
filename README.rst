@@ -10,8 +10,8 @@ Peer collaboration is encouraged to help mature the product to fill in metadata 
 **Example code**
 
 *Ways to get a MODIS instrument object*
+
 .. code-block:: python
-	:linenos:
 	
 	# Example 1
 	from esm.platform import Satellite
@@ -24,8 +24,8 @@ Peer collaboration is encouraged to help mature the product to fill in metadata 
 	modis = MODIS('terra')
 	
 *Read MODIS radiance data*
+
 .. code-block:: python
-	:linenos:
 	
 	import datetime as dt
 	from esm.instrument import load_instrument
@@ -45,8 +45,8 @@ Peer collaboration is encouraged to help mature the product to fill in metadata 
 		timestamp=timestamp, version=collection)
 
 *Get height data for a file*
+
 .. code-block:: python
-	:linenos:
 	
 	from esm.data import Dataset, Granule
 	file = "MOD03.A2025006.0455.061.2025006123710.hdf"
