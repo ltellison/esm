@@ -1,0 +1,10 @@
+[project]
+name = "esmpy"
+version = "0.1.0"
+authors = [
+  {name="Luke Ellison", email="luke.ellison@umbc.edu"},
+]
+description = "A Python package for reading Earth Science Mission data from spaceborne and airborne instruments."
+readme = "README.rst"
+license = "BSD-3-Clause-Clear"
+license-files = ["LICEN[CS]E*"]
